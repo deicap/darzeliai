@@ -294,74 +294,81 @@
 					<div class="form-section">
 						
 						
-						<h2 class="form-section-title form-section-title-collapsable">
-							
+						<h2 class="form-section-title form-section-title-collapsable">							
 							<button class="collapse-btn" type="button" data-toggle="collapse" data-target="#pirmenybesDokumentai" aria-expanded="false" aria-controls="pirmenybesDokumentai"><i class="fa fa-minus"></i><i class="fa fa-plus"></i></button>
-
-							Dokumentai, suteikiantys pirmenybę
-							
+							<span>Dokumentai, suteikiantys pirmenybę</span>
 						</h2>
 
 						
 						<div class="collapse" id="pirmenybesDokumentai">
 							
-							<p>Vaikas auga šeimoje įrašytoje į socialinės rizikos šeimų apskaitą ir jo tėvai (globėjai) yra piniginės socialinės paramos gavėjai pagal Piniginės socialinės paramos nepasiturintiems gyventojams įstatymą. Pateikiu (pažymėti):</p>
-							
-							
-							<div class="checkbox-group">
+							<p class="checkbox checkbox-group-title">
+								<label><input type="checkbox" value="">
+									<span>Vaikas auga šeimoje įrašytoje į socialinės rizikos šeimų apskaitą ir jo tėvai (globėjai) yra piniginės socialinės paramos gavėjai pagal Piniginės socialinės paramos nepasiturintiems gyventojams įstatymą. Pateikiu (pažymėti):</span>
+								</label>
+							</p>
+
+							<div class="checkbox-group checkbox-group-indent">
 								
 								<div class="checkbox">
 									<label>
-										<input type="checkbox" id="inlineCheckbox1" value="option1"> Vaiko teisių apsaugos skyriaus pažymą
+										<input type="checkbox" id="inlineCheckbox1" value="option1"> <span>Vaiko teisių apsaugos skyriaus pažymą</span>
 									</label>
 								</div>
 
 								<div class="checkbox">
 									<label>
-										<input type="checkbox" id="inlineCheckbox1" value="option1"> Socialinės paramos skyriaus pažymą
+										<input type="checkbox" id="inlineCheckbox1" value="option1"> <span>Socialinės paramos skyriaus pažymą</span>
 									</label>
 								</div>
 
 							</div>
-							
-							
 							
 		
-							<p>Vaikui nustatytas neįgalumas. Pateikiu (pažymėti):</p>
+							<p class="checkbox checkbox-group-title">
+								<label><input type="checkbox" value="">
+									<span>Vaikui nustatytas neįgalumas. Pateikiu (pažymėti):</span>
+								</label>
+							</p>
 
-							<div class="checkbox-group">
+							<div class="checkbox-group checkbox-group-indent">
 							
 								<div class="checkbox">
 									<label>
-										<input type="checkbox" id="inlineCheckbox1" value="option1"> Neįgalumo lygio pažymą
+										<input type="checkbox" id="inlineCheckbox1" value="option1"> <span>Neįgalumo lygio pažymą</span>
 									</label>
 								</div>
 
 
 								<div class="checkbox">
 									<label>
-										<input type="checkbox" id="inlineCheckbox1" value="option1"> Pedagoginės psichologinės tarnybos pažymą dėl specialiųjų poreikių įvertinimo
+										<input type="checkbox" id="inlineCheckbox1" value="option1"> <span>Pedagoginės psichologinės tarnybos pažymą dėl specialiųjų poreikių įvertinimo</span>
 									</label>
 								</div>
 
 							</div>
 							
 							
-
-							<p>Vaikas, kurių tėvai yra netekę 60-100 procentų darbingumo. Pateikiu (pažymėti):</p>
+							<p class="checkbox checkbox-group-title">
+								<label><input type="checkbox" value="">
+									<span>Vaikas, kurių tėvai yra netekę 60-100 procentų darbingumo. Pateikiu (pažymėti):</span>
+								</label>
+							</p>
 							
-							<div class="checkbox-group">
+							<div class="checkbox-group checkbox-group-indent">
 							
 								<div class="checkbox">
 									<label>
-										<input type="checkbox" id="inlineCheckbox1" value="option1"> Tėvo (globėjo) neįgalumo ir darbingumo nustatymo tarnybos pažymą
+										<input type="checkbox" id="inlineCheckbox1" value="option1"> <span>Tėvo (globėjo) neįgalumo ir darbingumo nustatymo tarnybos pažymą</span>
 									</label>
+									<span class="selected-file text-nowrap"><span>Failo_pavadinimas.pdf</span> <i title="Pašalinti dokumentą" class="fa fa-times text-danger" aria-hidden="true"></i></span>
 								</div>
 								
 								<div class="checkbox">
 									<label>
-										<input type="checkbox" id="inlineCheckbox1" value="option1"> Motinos (globėjos) neįgalumo ir darbingumo nustatymo tarnybos pažymą.
+										<input type="checkbox" id="inlineCheckbox1" value="option1"> <span>Motinos (globėjos) neįgalumo ir darbingumo nustatymo tarnybos pažymą.</span>
 									</label>
+									<button class="btn btn-xs btn-primary btn-upload"><i class="fa fa-upload" aria-hidden="true"></i> Įkelti dokumentą</button>
 								</div>
 							
 							</div>

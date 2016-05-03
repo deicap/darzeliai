@@ -155,6 +155,43 @@ label {
 	
 }
 
+.selected-file {
+	
+	background: lighten($brand-primary, 59%);
+	border: $gray-light 1px solid;
+	@include border-radius(1px);
+	padding: 1px 7px;
+	display: inline-block;
+	margin: 0 5px 0 20px;
+	font-size: $font-size-small;
+	
+	.fa-times {
+		margin-left: 5px;
+		cursor: pointer;
+		&:hover {
+			@include opacity(0.75);
+		}
+	}
+	
+}
+
+.checkbox-group-title {
+
+	span {
+		font-size: $font-size-base;
+	}
+	
+	input[type="radio"],
+	input[type="checkbox"] {
+		top: 2.5px;
+	}
+	
+}
+
+.checkbox-group-indent {
+	margin-left: 20px;
+}
+
 .datepicker {
 	@include border-radius($border-radius-base);
 	padding: $padding-base-vertical $padding-base-horizontal;

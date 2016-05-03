@@ -48,6 +48,11 @@
     border-color: transparent;
     text-decoration: none !important; }
 
+.btn-upload {
+  padding-left: 13px;
+  padding-right: 13px;
+  margin-left: 18px; }
+
 .collapse-btn {
   background: #6fbe11;
   color: #fff;
@@ -163,6 +168,34 @@ label {
   margin: 0 0 30px 0; }
   .radio-group:last-child {
     margin-bottom: 0; }
+
+.selected-file {
+  background: #f7fdff;
+  border: #e5e5e5 1px solid;
+  border-radius: 1px;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px;
+  -o-border-radius: 1px;
+  padding: 1px 7px;
+  display: inline-block;
+  margin: 0 5px 0 20px;
+  font-size: 14px; }
+  .selected-file .fa-times {
+    margin-left: 5px;
+    cursor: pointer; }
+    .selected-file .fa-times:hover {
+      -khtml-opacity: 0.75;
+      -moz-opacity: 0.75;
+      opacity: 0.75; }
+
+.checkbox-group-title span {
+  font-size: 16px; }
+.checkbox-group-title input[type="radio"], .checkbox-group-title input[type="checkbox"] {
+  top: 2.5px; }
+
+.checkbox-group-indent {
+  margin-left: 20px; }
 
 .datepicker {
   border-radius: 0px;
