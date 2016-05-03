@@ -76,11 +76,15 @@ select.form-control::-ms-expand {
 .form-section-title-collapsable {
 
 	border-left: 0;
-	padding-left: 0;
+	position: relative;
+	padding-left: 44px;
 	
 	.collapse-btn {
-		margin: -2px 7px 0 0;
+		margin: -3px 7px 0 0;
 		vertical-align: middle;
+		position: absolute;
+		top: 1px;
+		left: 0;
 	}
 	
 }
@@ -159,6 +163,7 @@ label {
 	
 	background: lighten($brand-primary, 59%);
 	border: $gray-light 1px solid;
+	color: $brand-primary;
 	@include border-radius(1px);
 	padding: 1px 7px;
 	display: inline-block;
@@ -190,6 +195,9 @@ label {
 
 .checkbox-group-indent {
 	margin-left: 20px;
+	@media (min-width: 480px) {
+		margin-left: 40px;
+	}
 }
 
 .datepicker {
