@@ -1,0 +1,48 @@
+
+.cms-editor {
+	
+	a {
+		text-decoration: underline !important;
+		&:hover {
+			text-decoration: none !important;
+		}
+		
+	}
+	
+	p {
+		margin: 0 0 1.5em 0;
+	}
+
+	ul {
+		
+		margin: 0 0 1.5em 0;
+		padding: 0;
+		list-style: none;
+			
+		> li {
+			
+			margin: 0 0 0.4em 0;
+			padding: 0 0 0 1.25em;
+			position: relative;
+			
+			&:before {
+				width: 0.5em;
+				height: 0.5em;
+				@include border-radius(50%);
+				position: absolute;
+				top: 0.6em;
+				left: 0;
+				background: $brand-success;
+				content: " ";
+				display: block;
+			}
+			
+		}
+		
+	}
+	
+	p + ul {
+		margin-top: -0.75em;
+	}
+	
+}

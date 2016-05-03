@@ -1,0 +1,44 @@
+
+body {
+	min-width: 320px;
+}
+
+.site-main {
+
+	padding: 0 !important;
+	margin: 70px 0 45px 0;
+	position: relative;
+	
+	min-height: calc(100vh - 70px - 115px - 45px);
+	
+	@media (max-width: $screen-lg - 1) {
+		
+		.container {
+			width: calc(100% - 10px);
+		}
+		
+	}
+	
+}
+
+.site-aside + .site-article {
+	@media (min-width: $screen-md) {
+		padding-left: 50px;
+	}
+}
+
+.site-article {
+
+	a:not(.btn) {
+	
+		text-decoration: underline !important;
+		
+		&:hover {	
+		
+			text-decoration: none !important;
+			
+		}
+		
+	}
+
+}

@@ -1,0 +1,23 @@
+.ie-warning {
+	display: none;
+}
+
+.site-footer {
+	background: #f3f3f3;
+	color: $gray-darker;
+	text-align: center;
+	position: relative;
+	
+	@media (max-width: $screen-lg - 1) {
+		
+		.container {
+			width: calc(100% - 10px);
+		}
+		
+	}
+	
+}
+
+.site-footer-inner {
+	padding: 45px 0;
+}

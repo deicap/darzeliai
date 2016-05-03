@@ -1,0 +1,182 @@
+
+select.form-control {
+
+	background: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	
+	padding-right: 45px;
+	background: transparent url('images/select-bg.png') no-repeat center right;
+	
+	&:focus {
+		background: transparent url('images/select-bg-focus.png') no-repeat center right;
+	}
+	
+}
+
+/* ie 9 */
+select.form-control {background:#fff\0;}
+select.form-control {padding-right:12px\0;}
+
+select.form-control::-ms-expand {
+    display: none;
+}
+
+.form-control::-ms-clear {
+    display: none;
+}
+
+.checkbox-inline {
+
+	margin: 0 15px 5px 0;
+	
+	+ .checkbox-inline {
+		margin: 0 15px 5px 0;
+	}
+	
+	@media (max-width: 425px) {
+		display: block;
+		margin-right: 0;
+		+ .checkbox-inline {
+			margin-right: 0;
+		}
+	}
+	
+}
+
+
+.form-control-message {
+	
+	padding: 5px 0;
+	
+	.fa {
+		font-size: 1.3em;
+		margin-right: 5px;
+		vertical-align: middle;
+	}
+	
+}
+
+.has-error {
+	
+	input[type=password].form-control,
+	input[type=email].form-control,
+	input[type=text].form-control {
+
+		background: $brand-danger;
+		color: #fff;
+	
+	}
+	
+}
+
+
+
+.form-section-title-collapsable {
+
+	border-left: 0;
+	padding-left: 0;
+	
+	.collapse-btn {
+		margin: -2px 7px 0 0;
+		vertical-align: middle;
+	}
+	
+}
+
+label {
+	font-weight: inherit;
+	font-size: $font-size-small;
+}
+
+.form-section {
+	margin: 0 0 35px 0;
+	padding: 0 0 20px 0;
+	border-bottom: $gray-light 1px solid;
+}
+
+.form-section-borderless {
+	padding: 0;
+	border-bottom: none;
+}
+
+.form-row {
+
+	margin: 0 0 20px 0;
+	
+	&:last-child {
+		margin-bottom: 5px;
+	}
+	
+}
+
+.form-value {
+	
+	.text-primary {
+		font-weight: 600;
+	}
+	
+}
+
+.form-buttons {
+	
+	margin: 0 0 15px 0;
+	
+	.btn {
+		margin-right: 15px;
+		margin-bottom: 15px;
+		
+		@media (max-width: 425px) {
+			width: 100%;
+			display: block;
+			margin-right: 0;
+		}
+		
+	}
+	
+}
+
+.checkbox-group {
+	margin: 0 0 30px 0;
+	
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.radio-group {
+
+	margin: 0 0 30px 0;
+	
+	&:last-child {
+		margin-bottom: 0;
+	}
+	
+}
+
+.datepicker {
+	@include border-radius($border-radius-base);
+	padding: $padding-base-vertical $padding-base-horizontal;
+}
+
+
+
+.ui-widget {
+	font-family: inherit !important;
+	
+}
+.ui-widget .ui-widget {
+
+}
+.ui-widget input,
+.ui-widget select,
+.ui-widget textarea,
+.ui-widget button {
+	font-family: inherit  !important;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+	background: $brand-primary !important;
+	border-color: $brand-primary !important;
+}

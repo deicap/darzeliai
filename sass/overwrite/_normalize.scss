@@ -1,0 +1,9 @@
+a, input, .btn {
+	outline: none !important;
+}
+
+body {
+	overflow-y: scroll;
+	/* padaro taip kad atidarant mobile menu per desktop browseri i sonus nesokinetu dizainas */
+	/* mobile browseriuose sitas neturi dideles reiksmes kadangi scrollbar ten yra "overlay" principu rodomas ant contento virsaus */
+}

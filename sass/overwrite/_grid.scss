@@ -1,0 +1,32 @@
+
+
+.row-flex > div[class*='col-'], .container-flex > div[class*='col-'] {
+	margin:-.4px; /* hack adjust for wrapping */
+}
+
+
+.row-flex {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display:         flex;
+	flex-wrap: wrap;
+}
+.row-flex > [class*='col-'] {
+	display: flex;
+	-webkit-flex-direction: column;
+}
+
+
+
+.row-slim {
+
+	margin-left: -9px;
+	margin-right: -9px;
+	
+	> * {
+		padding-left: 9px;
+		padding-right: 9px;
+	}
+	
+}

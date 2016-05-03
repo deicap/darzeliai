@@ -1,0 +1,34 @@
+
+.trow {
+	
+	width: 100%;
+	display: table;
+
+	> * {
+		display: table-cell;
+		vertical-align: middle;
+		
+	}
+
+	> *:not(.trow) {
+	
+	
+		padding-right: 15px;
+		
+		&:last-child {
+			padding-right: 0;
+		}
+	
+		&.trow-min {
+			width: 1%;
+		}
+		
+	}
+	
+	> .trow {
+	
+		display: table-row;
+		
+	}
+	
+}

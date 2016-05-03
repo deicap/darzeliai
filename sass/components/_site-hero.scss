@@ -1,0 +1,19 @@
+
+.site-hero {
+	height: 150px;
+	width: 100%;
+	position: relative;
+	margin: 0 0 15px 0;
+	background: transparent url() no-repeat center center / cover;
+	
+	&.site-hero-large {
+	
+		height: 500px;
+		
+		@media (max-height: 768px) {
+			height: 53vh;
+		}
+		
+	}
+	
+}

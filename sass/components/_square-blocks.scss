@@ -1,0 +1,81 @@
+
+.square-nav {
+	margin: -125px 0 45px 0;
+}
+
+.square-nav-item {
+	min-height: 250px;
+	width: 100%;
+	background: #fff;
+	@include box-shadow(1px,1px,2px,rgba(0,0,0,0.25));
+	margin: 0 0 18px 0;
+	position: relative;
+	text-align: center;
+	
+	@include transition(0.35s all);
+	
+	&:hover {
+		background: #f6f6f6;
+	}
+	
+}
+
+.square-nav-link {
+
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	padding: 45px 25px;
+	text-decoration: none !important;
+	
+	&:hover {
+		text-decoration: none !important;
+		
+	}
+	
+}
+
+.square-nav-icon {
+	margin: 0 0 30px 0;
+	position: relative;
+	display: block;
+}
+	
+.square-nav-title {
+	font-family: "Slabo 27px", sans-serif;
+	color: $brand-primary;
+	font-size: 21px;
+	line-height: 1.35;
+	margin: 0 0 30px 0;
+	
+	
+}
+
+.image-icon {
+	width: 95px;
+	height: 85px;
+	display: inline-block;
+	position: relative;
+	background: transparent url() no-repeat center center / contain;
+}
+
+.image-icon-parents {
+	background-image: url('images/icon-parents.png');
+}
+
+.image-icon-document {
+	background-image: url('images/icon-document.png');
+}
+
+.image-icon-click {
+	background-image: url('images/icon-click.png');
+}
+
+.image-icon-question {
+	background-image: url('images/icon-question.png');
+}
+
+
